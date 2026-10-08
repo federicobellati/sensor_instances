@@ -1,0 +1,8 @@
+@prefix ismatemplate:    <https://w3id.org/cnr-ismar/sensor-template/> .
+@prefix ismainstance:    <https://w3id.org/cnr-ismar/sensor-instance/> .
+@prefix sosa:            <http://www.w3.org/ns/sosa/> .
+
+# Example deployment of the model; instance-specific metadata belongs on this resource.
+ismainstance:CTD-042
+    a sosa:Deployment ;
+    sosa:deployedSystem ismatemplate:CTD-SB37 .
